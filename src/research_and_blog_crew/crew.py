@@ -42,7 +42,8 @@ class ResearchAndBlogCrew:
     @task
     def blog_writing_task(self) -> Task:
         return Task(
-            config=self.tasks_config["blog_writing_task"]
+            config=self.tasks_config["blog_writing_task"],
+            output_file= "blogs/blogs.md"
         )
 
     # ============== CREW ====================

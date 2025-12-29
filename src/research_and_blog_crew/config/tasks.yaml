@@ -7,7 +7,7 @@ report_task:
 
 blog_writing_task:
   description: >
-    Based on the report on {topic}, create a well written and strucutred blog that even a 5 year old can understand. the blog should be around 500 words.
+    Based on the report on {topic}, create a well written and strucutred blog that even a 10 year old can understand. the blog should be around 1000 words.
   expected_output: >
-    500 words long blog post on topic: {topic}. the blog should be well strucutred with a creative and fun heading.
+    1000 words long blog post on topic: {topic}. the blog should be well strucutred with a creative and fun heading.
   agent: blog_writer

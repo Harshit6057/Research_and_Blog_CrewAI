@@ -17,7 +17,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic' : 'AI agents in coding'
+        'topic' : 'AI agents in LLMs'
     }
     
     try:
